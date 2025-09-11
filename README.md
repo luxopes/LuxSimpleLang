@@ -40,7 +40,7 @@ cd LuxSimpleLang
 ```bash
 python main.py
 ```
-.deb instalation files are available on [https://lsl25.netlify.app/downloads.html](https://lsl25.netlify.app/downloads.html)
+.deb instalation files are available on [https://lsl25.netlify.app/download.html](https://lsl25.netlify.app/download.html)
 
 ## Usage
 
@@ -71,7 +71,7 @@ The IDE supports both English and Czech languages. You can switch between langua
 
 Current version: 0.0.3 Testing
 
-All versions are available on [https://lsl25.netlify.app/downloads.html](https://lsl25.netlify.app/downloads.html)
+All versions are available on [https://lsl25.netlify.app/download.html](https://lsl25.netlify.app/download.html)
 
 ## License
 
