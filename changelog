@@ -1,0 +1,51 @@
+luxsimplelang (0.0.3) unstable; urgency=medium
+
+  * Interface improvements:
+    - Added splash screen with loading animation
+    - Enhanced splash screen visibility
+    - Set English as primary language
+    - Improved window scaling and visibility
+    - Added online manual link to documentation
+  * Documentation updates:
+    - Added comprehensive README.md
+    - Updated user guide with new features
+    - Added GitHub repository documentation
+  * Performance improvements:
+    - Optimized startup sequence
+    - Enhanced application event handling
+    - Improved theme switching performance
+
+ -- Antonín Tomeček <bambiliarda@gmail.com>  Mon, 11 Sep 2025 15:00:00 +0200
+
+luxsimplelang (0.0.2) unstable; urgency=medium
+
+  * Enhanced GUI features:
+    - Added line numbers
+    - Adjustable font size
+    - Improved syntax highlighting
+    - Added status bar
+    - Better theme contrast
+    - Enhanced code editor
+  * New language features:
+    - File and directory operations (createdir, listdir, deletedir)
+    - Text file operations (writefile, appendfile, readfile)
+    - Text manipulation (upper, lower)
+    - Alternative block ending with semicolon
+    - Multiline comments /* ... */
+    - Enhanced for loops with from..to syntax
+  * Updated documentation and guide
+  * Bug fixes and stability improvements
+
+ -- Antonín Tomeček <bambiliarda@gmail.com>  Wed, 10 Sep 2025 14:30:00 +0200
+
+luxsimplelang (0.0.1) unstable; urgency=medium
+
+  * Initial release
+  * Qt-based GUI implementation
+  * Dark and light theme support
+  * Czech and English localization
+  * Syntax highlighting for LuxSimpleLang
+  * File management (open, save, save as)
+  * Built-in interpreter
+
+ -- Antonín Tomeček <bambiliarda@gmail.com>  Wed, 10 Sep 2025 12:00:00 +0200
