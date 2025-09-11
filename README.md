@@ -25,6 +25,10 @@ A modern, user-friendly IDE for the LuxSimpleLang programming language, built wi
 ```bash
 pip install PyQt6
 ```
+or
+```bash
+pip install -r requirements.txt
+```
 
 3. Clone the repository:
 ```bash
@@ -64,7 +68,9 @@ The IDE supports both English and Czech languages. You can switch between langua
 
 ## Version
 
-Current version: 0.0.2 Testing
+Current version: 0.0.3 Testing
+
+All versions are available on [https://lsl.netlify.app/downloads.html](https://lsl.netlify.app/downloads.html)
 
 ## License
 
