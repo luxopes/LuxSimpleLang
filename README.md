@@ -40,6 +40,7 @@ cd LuxSimpleLang
 ```bash
 python main.py
 ```
+.deb instalation files are available on [https://lsl.netlify.app/downloads.html](https://lsl.netlify.app/downloads.html)
 
 ## Usage
 
