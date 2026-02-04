@@ -64,7 +64,7 @@ The IDE supports both English and Czech languages. You can switch between langua
 
 ## Version
 
-Current version: 0.0.2 Testing
+Current version: 0.0.4 Testing
 
 ## License
 
