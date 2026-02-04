@@ -1,13 +1,19 @@
 import os
 import sys
-from PyQt6.QtWidgets import QApplication
-from PyQt6.QtGui import QIcon
-from gui_qt import SimpleLangIDE
+import tkinter as tk
+from gui import SimpleLangIDE
 
 def run_gui():
-    app = QApplication(sys.argv)
-    app.setApplicationName("LuxSimpleLang IDE")
-    app.setApplicationDisplayName("LuxSimpleLang IDE")
+    root = tk.Tk()
+
+    # Nastavíme titulek okna
+    root.title("LuxSimpleLang IDE")
+
+    # Nastavíme WM_CLASS pro window manager
+    try:
+        root.tk.call('wm', 'class', root._w, 'LuxSimpleLang')
+    except tk.TclError:
+        pass  # na Windows není potřeba
 
     # Najdeme cestu k ikoně
     # 1) současná složka (vývoj)
@@ -16,16 +22,18 @@ def run_gui():
     if not os.path.isfile(icon_path):
         icon_path = "/opt/luxsimplelang/icon.png"
 
-    # Nastavíme ikonku
-    if os.path.isfile(icon_path):
-        app.setWindowIcon(QIcon(icon_path))
+    # Nastavíme ikonku přímo v kódu
+    try:
+        icon_img = tk.PhotoImage(file=icon_path)
+        root.iconphoto(False, icon_img)
+    except Exception as e:
+        print("Ikonu se nepodařilo načíst:", e)
 
     # Inicializace IDE
-    window = SimpleLangIDE()
-    window.show()
+    app = SimpleLangIDE(root)
 
     # Spuštění hlavní smyčky
-    sys.exit(app.exec())
+    root.mainloop()
 
 if __name__ == "__main__":
     run_gui()
