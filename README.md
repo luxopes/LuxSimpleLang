@@ -60,7 +60,7 @@ The IDE supports both English and Czech languages. You can switch between langua
 ## Documentation
 
 - Built-in guide available in Help -> User Guide
-- Online manual available at [https://lsl.netlify.app/](https://lsl.netlify.app/)
+- Online manual available at [https://lsl25.netlify.app/](https://lsl25.netlify.app/)
 
 ## Version
 
